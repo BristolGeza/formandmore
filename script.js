@@ -1,3 +1,24 @@
+
+function getRandomImage() {
+    var randomImage = new Array();
+    randomImage[0] = "images/1.jpg";
+    randomImage[1] = "images/2.jpg";
+    randomImage[2] = "images/3.jpg";
+    randomImage[3] = "images/4.jpg";
+
+    var number = Math.floor(Math.random() * randomImage.length);
+    
+    return document.getElementById('result').innerHTML = '<img src="' + randomImage[number]+'" />'; 
+} 
+
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
     
     
