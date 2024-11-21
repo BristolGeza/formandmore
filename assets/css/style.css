@@ -36,3 +36,11 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #45a049;
 }
+
+
+    .rounded-img {
+        border-radius: 50%;
+        width: 10%;
+        height: auto;
+        max-width: 100%;
+}
