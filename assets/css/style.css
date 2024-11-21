@@ -1,3 +1,23 @@
+
+/* Center the body content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the image container */
+#image-container {
+    text-align: center;
+}
+
+
+
+
 form {
     width: 100%;
     max-width: 600px;
@@ -35,6 +55,19 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #45a049;
+}
+
+img {
+    width: 80%; /* Image occupies 30% of the container width */
+    border-radius: 10%; /* Rounds corners by 10% */
+    border: 2px solid #333; /* Adds a thin border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+}
+
+/* Add a hover effect */
+img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
 }
 
 
