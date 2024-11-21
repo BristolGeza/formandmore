@@ -33,7 +33,7 @@ window.onload = displayRandomImage;
 
 
 
-
+// FORM
 
 
 
@@ -46,12 +46,15 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         const formData = e.target;
         const message = document.getElementById("message");
-        if (formData["first-name"].value !== "Geza" || formData.email.value !== "geza.csosz@gmail.com") {
-            message.innerText = "You are not Geza!";
-            return;
-        }
-        message.innerText = `First name: ${formData["first-name"].value}. Email address: ${formData.email.value}.`;
+
+        
+        
+        message.innerText = `Hello: ${formData["first-name"].value}. Email address: ${formData.email.value}.Answer: ${formData["options"].value}.`;
+        let letter = message.innerText.charAt(text.length-1);
+        let lnumber = Number(letter);
+        
     }
+    
 });
 
 
