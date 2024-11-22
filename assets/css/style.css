@@ -77,7 +77,7 @@ button[type="submit"]:hover {
 }
 
 img {
-    width: 80%; /* Image occupies 30% of the container width */
+    width: 100%; /* Image occupies 100% of the container width */
     border-radius: 10%; /* Rounds corners by 10% */
     border: 2px solid #333; /* Adds a thin border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
